@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디지털 역량강화교육 대국민 안내 홍보 포털 - 지역별 센터검색</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/img/logo/logo.png" style="width:auto;max-height: 40px;" />
+            </a>
+        </div>
+        <div class="profile_wrap">
+            <div class="pf_img" style="background-image: url(assets/img/main/profile.png);"></div>
+            <div class="nick">김미정 님<i></i></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="map_container">
+            <div class="map" style="background-image: url(assets/img/map/map.png); background-size: cover;"></div>
+            <div class="tool">
+                <div class="zoom_in">
+                    <i style="background-image: url(assets/img/map/plus.png);"></i>
+                    <span>확대</span>
+                </div>
+                <div class="slider">
+                    <input type="range" min="0" max="10" value="5" id="zoom" />
+                </div>
+                <div class="zoom_out">
+                    <i style="background-image: url(assets/img/map/minus.png);"></i>
+                    <span>축소</span>
+                </div>
+                <div class="location">
+                    <i style="background-image: url(assets/img/map/aim.png);"></i>
+                    <span>위치</span>
+                </div>
+                <div class="save">
+                    <i style="background-image: url(assets/img/map/camera.png);"></i>
+                    <span>저장</span>
+                </div>
+                <div class="return">
+                    <i style="background-image: url(assets/img/map/return.png);"></i>
+                    <span>초기화</span>
+                </div>
+            </div>
+            <div class="filter_wrap">
+                <div class="pull_bedge"></div>
+                <div class="scope">
+                    <p>126,4856,35,6260</p>
+                </div>
+                <div class="filter">
+                    <div class="search_wrap">
+                        <input type="text" placeholder="검색어를 입력해 주세요." id="search_input" />
+                        <label for="search_input">필터 검색</label>
+                        <button><i></i>검색</button>
+                    </div>
+                    <div>
+                        <div class="toggle_wrap" id="realm">
+                            <h3><i style="background-image: url(assets/img/map/list_icon1.png);"></i>분야별 조회<i class="toggle_angle"></i></h3>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="cate1_item1">
+                                    <label for="cate1_item1">
+                                        <p>교육·역량</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item2">
+                                    <label for="cate1_item2">
+                                        <p>참여·민주주의</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item3">
+                                    <label for="cate1_item3">
+                                        <p>문화·예술</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item4">
+                                    <label for="cate1_item4">
+                                        <p>노동·고용</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item5">
+                                    <label for="cate1_item5">
+                                        <p>건강·웰빙</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item6">
+                                    <label for="cate1_item6">
+                                        <p>지역재생</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item7">
+                                    <label for="cate1_item7">
+                                        <p>금융·경제</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item8">
+                                    <label for="cate1_item8">
+                                        <p>과학</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item9">
+                                    <label for="cate1_item9">
+                                        <p>에너지·환경</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate1_item10">
+                                    <label for="cate1_item10">
+                                        <p>기타</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="toggle_wrap" id="skill">
+                            <h3><i style="background-image: url(assets/img/map/list_icon2.png);"></i>활용기술별 조회<i class="toggle_angle"></i></h3>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="cate2_item1">
+                                    <label for="cate2_item1">
+                                        <p>모바일·웹 앱</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item2">
+                                    <label for="cate2_item2">
+                                        <p>소셜 네트워킹</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item3">
+                                    <label for="cate2_item3">
+                                        <p>오픈데이터</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item4">
+                                    <label for="cate2_item4">
+                                        <p>크라우드소싱</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item5">
+                                    <label for="cate2_item5">
+                                        <p>오픈소스</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item6">
+                                    <label for="cate2_item6">
+                                        <p>센서·IoT</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item7">
+                                    <label for="cate2_item7">
+                                        <p>AI·머신러닝</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item8">
+                                    <label for="cate2_item8">
+                                        <p>3D 프린팅</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item9">
+                                    <label for="cate2_item9">
+                                        <p>GIS</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate2_item10">
+                                    <label for="cate2_item10">
+                                        <p>온라인교육</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="toggle_wrap" id="participation">
+                            <h3><i style="background-image: url(assets/img/map/list_icon3.png);"></i>참여주제별 조회<i class="toggle_angle"></i></h3>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="cate3_item1">
+                                    <label for="cate3_item1">
+                                        <p>시민</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate3_item2">
+                                    <label for="cate3_item2">
+                                        <p>혁신가</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate3_item3">
+                                    <label for="cate3_item3">
+                                        <p>공공기관</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate3_item4">
+                                    <label for="cate3_item4">
+                                        <p>기업</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cate3_item5">
+                                    <label for="cate3_item5">
+                                        <p>학계기관</p>
+                                        <div class="switch"></div>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/js/common.js"></script>
+</html>

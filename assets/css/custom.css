@@ -1,0 +1,351 @@
+@media (max-width: 1200px) {
+    #social_btn {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    #board .brd_border.brd_video {
+        height: 480px;
+    }
+
+    #top_bar, #banner {
+        display: none;
+    }
+
+    li.nav-item .nav-link.g-px-0 {
+        padding: 0.8rem 1rem;
+    }
+
+    .hs-has-sub-menu > a::after {
+      font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #board .brd_border.brd_video {
+        height: 380px;
+    }
+
+    .logo_footer {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #info .bg, #info .bg2 {
+        height: 580px !important;
+    }
+
+    #info .bg3 {
+        width: 90% !important;
+        margin: 0 5%;
+    }
+}
+
+/* footer */
+footer {
+    min-height: 180px;
+    background: #fff;
+}
+
+footer .menu {
+    text-align: center;
+    padding: 15px 0;
+    border: 1px solid #eee !important;
+}
+
+footer .menu a {
+    color: white;
+    font-weight: 600;
+    font-size: 0.85714rem !important;
+    border-color: #e0e4ea !important;
+}
+
+footer .footer {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+/* end of footer */
+
+/* main */
+.search_box {
+    position: relative;
+    display: block;
+}
+
+.search_icon {
+    float: right;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.click {
+    cursor: pointer;
+}
+
+#board .brd_border {
+    height: 280px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px 5px 40px 5px;
+}
+
+#board .brd_border {
+    margin-right: 10px;
+}
+
+#board .brd_border li {
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    width: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#board .brd_border li:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+#board a.plus {
+    color: rgb(0, 0, 0);
+    font-size: 1.44286rem;
+}
+
+#info .bg {
+    height: 290px;
+    background-image: url(../img/main/bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#info .bg2 {
+    height: 290px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#info .bg3 {
+    min-height: 250px;
+    width: 45%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#info .more_btn {
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.txt_line {
+    width: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* end of main */
+
+/* notice */
+.tbl table {
+    border-top: 2px solid rgb(72, 90, 125);
+    line-height: 1.5;
+    border-bottom: 1px solid #333;
+    margin-bottom: -1px;
+    font-size: 90%;
+    letter-spacing: -1px;
+    width: 100%;
+    text-align:center;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tbl table th {
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.tbl table tbody tr:not(:last-child) {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tbl .ac {
+    text-align: center;
+}
+
+.tbl .title {
+    text-align: left;
+}
+
+.tbl table th, .tbl table td {
+    height: 25px;
+    min-height: 25px;
+    padding: 15px;
+}
+
+.pagination {
+    padding: 20px 0;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.pg_div {
+	margin: 0 auto;
+	display: table;
+}
+
+.pagination a, .pagination strong, .pagination span {
+    display: inline-block;
+    float: right;
+    position: relative;
+    padding: 7px 8px;
+}
+
+.pagination .paginationList > li {
+    height: 30px;
+    padding: 2px;
+}
+
+.pagination .paginationList > li, .pagination .paginationListNum > li {
+    float: left;
+    list-style: none;
+}
+
+.pagination strong {
+    font-weight: bold;
+    color: rgb(72, 90, 125);
+    border-bottom: 2px solid rgb(72, 90, 125);
+}
+
+.pagination a, .pagination strong, .pagination span {
+    display: inline-block;
+    float: right;
+    position: relative;
+    padding: 7px 8px;
+}
+
+/* end of notice */
+
+/* edu list */
+#edu .img {
+    height: 300px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#edu .edu_div {
+    margin: 10px;
+    height: 350px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#edu .edu_img {
+    height: 150px;
+    border-radius: 4px 4px 0 0;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#edu .edu_info {
+    height: 200px;
+    padding: 10px 20px;
+}
+
+#edu .edu_info h5 {
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: box;
+    margin-top: 1px;
+    max-height: inherit;
+    overflow: hidden;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+#edu .edu_btn {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: fit-content;
+    font-weight: 600;
+    color: #3b5998;
+    font-size: 12px;
+}
+
+#edulist .search_div {
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    padding: 30px;
+}
+
+#edulist .edu_div {
+    margin: 10px;
+    height: 380px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#edulist .edu_img {
+    height: 150px;
+    border-radius: 4px 4px 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#edulist .edu_info {
+    height: 230px;
+    padding: 20px;
+}
+
+#edulist .edu_info h5 {
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: box;
+    margin-top: 1px;
+    max-height: inherit;
+    overflow: hidden;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+#edulist .edu_btn {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: fit-content;
+    font-weight: 600;
+    color: #3b5998;
+    font-size: 12px;
+}
+/* end of edu list */
+
+#event .img {
+    height: 230px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
