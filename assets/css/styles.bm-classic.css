@@ -31673,6 +31673,10 @@ pre[class*="language-"] .toolbar-item a {
   line-height: 2 !important;
 }
 
+.g-line-height-3 {
+  line-height: 3 !important;
+}
+
 /*------------------------------------
   Typography Font Style
 ------------------------------------*/

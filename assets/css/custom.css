@@ -1,3 +1,12 @@
+select {
+    border-radius: 0 !important;
+    height: 40px !important;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0 5px;
+    border: 1px solid #dcdcdc;
+}
+
 @media (max-width: 1200px) {
     #social_btn {
         display: none;
@@ -295,6 +304,15 @@ footer .footer {
     padding: 30px;
 }
 
+#edulist .search_div .search_btn {
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    padding: 15px 40px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
 #edulist .edu_div {
     margin: 10px;
     height: 380px;
@@ -340,12 +358,117 @@ footer .footer {
     color: #3b5998;
     font-size: 12px;
 }
+
+#edulist .input_info {
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+}
+
+#edulist .input_info2 {
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+}
+
+#edulist .calender_btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    color: white;
+    padding: 10px;
+}
+
+#edulist table td{
+    height: 50px;
+}
 /* end of edu list */
 
+/* event list */
 #event .img {
     height: 230px;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
+/* end of event list */
 
+/* sugang list */
+#sugang .input_info {
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+}
+
+#sugang input[type="text"]:disabled {
+    background-color: #eee;
+}
+
+#sugang .btn {
+    height: 40px;
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+
+#sugang .input_area {
+    width: 100%;
+    height: 100px;
+    line-height: 18px;
+    padding: 5px 6px;
+    border: 1px solid #dcdcdc;
+}
+
+#sugang .btm_btn {
+    cursor: pointer;
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 40px;
+    margin: 0 30px;
+}
+
+#edu_info .info_div {
+    padding: 40px;
+    border: 2px solid #e5e5e5;
+    min-height: 250px;
+
+}
+
+#edu_info .info_list {
+    padding: 40px;
+}
+
+#edu_info .info_head {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#edu_info .info_cont {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#edu_info  .info_img {
+    width: 100%;
+    height: auto;
+}
+/* end of sugang list */

@@ -352,9 +352,60 @@
           </div>
 
           <div class="g-my-20 search_div">
-            <h2 class="h6 g-font-weight-700 g-color-gray-dark-v1 text-uppercase g-m">교육명</h2>
-            <h2 class="h6 g-font-weight-700 g-color-gray-dark-v1 text-uppercase">교육명</h2><input width="200" class="form-control g-brd-secondary-light-v2 g-brd-primary--focus g-color-secondary-dark-v1 g-placeholder-secondary-dark-v1 g-bg-white g-font-weight-400 g-font-size-13 g-px-20 g-py-12" type="text" placeholder="검색어를 입력하세요.">
-            <h2 class="h6 g-font-weight-700 g-color-gray-dark-v1 text-uppercase">학습기간</h2>
+            <table class="w-100">
+              <colgroup>
+                  <col width="20%"/>
+                  <col width="80%"/>
+              </colgroup> 
+              <tbody class="g-font-weight-600">
+                  <tr>
+                      <td>카테고리</td>
+                      <td class="text-left">디지털기초</td>
+                  </tr>
+                  <tr>
+                      <td>교육명</td>
+                      <td class="text-left">
+                        <input type="text" class="input_info">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>신청기간</td>
+                      <td class="text-left">
+                        <input type="text" class="input_info2">
+                        <span class="calender_btn text-center">
+                          <i class="icofont-calendar"></i>
+                        </span>
+                        　~　
+                        <input type="text" class="input_info2">
+                        <span class="calender_btn text-center">
+                          <i class="icofont-calendar"></i>
+                        </span>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>학습기간</td>
+                      <td class="text-left">5일</td>
+                  </tr>
+              </tbody>
+            </table>
+            <div class="text-center g-mt-20">
+              <span class="search_btn">검색</span>
+            </div>
+          </div>
+
+          <div class="g-py-20">
+            <div class="row" id="search">
+              <div class="col-6 mr-auto">
+                <span class="g-font-weight-600 g-font-size-17 g-line-height-3">Total 12</span>
+              </div>
+              <div class="col-6 col-lg-3 col-md-4 col-sm-5">
+                <select class="form-control">
+                  <option>최신순</option>
+                  <option>인기순</option>
+                  <option>마감임박순</option>
+                </select>
+              </div>
+            </div>
           </div>
 
           <div class="row no-gutters g-py-20">
