@@ -25823,7 +25823,6 @@ img.u-block-hover__main--magnifier-top-left {
 .progress {
   font-size: 1rem;
   line-height: inherit;
-  height: inherit;
   background-color: #eee;
 }
 
@@ -25831,6 +25830,12 @@ img.u-block-hover__main--magnifier-top-left {
   height: auto;
   min-height: 12px;
   background-color: #6281c8;
+}
+
+.progress-bar-red {
+  height: auto;
+  min-height: 12px;
+  background-color: #fe2c2c85;
 }
 
 .btn-primary {

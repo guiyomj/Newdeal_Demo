@@ -52,6 +52,10 @@ select {
     }
 }
 
+.w-30 {
+    width: 30%;
+}
+
 /* footer */
 footer {
     min-height: 180px;
@@ -472,3 +476,53 @@ footer .footer {
     height: auto;
 }
 /* end of sugang list */
+
+/* mypage2 */
+#mylist .detail_btn {
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+.list_option .selected {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.list_option .btn {
+    border-radius: 0;
+    padding: 15px 0;
+}
+/* end of mypage2 */
+
+/* newdeal intro */
+#newdeal_info .info_div {
+    min-height: 200px;
+    padding: 20px 40px;
+    border: 2px solid #eee;
+}
+
+#newdeal_info .info_div .info_img {
+    min-height: 200px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#newdeal_info .info_div .info_list div {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 0;
+}
+/* end of newdeal intro */
+
+/* edu intro */
+#sugang_info .info_div {
+    padding: 10px 20px;
+    background: #eee;
+}
+/* end of edu intro */

@@ -48,6 +48,8 @@
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
+
+   #edu .owl-carousel .owl-item {border:0}
   .owl-carousel .owl-item img {
     display: block;
     width: auto;
