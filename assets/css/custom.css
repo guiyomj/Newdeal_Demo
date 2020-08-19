@@ -29,11 +29,15 @@ select {
     .hs-has-sub-menu > a::after {
       font-size: 10px;
     }
+
+    #edu_info .info_list {
+        padding-top: 40px;
+    }
 }
 
 @media (max-width: 768px) {
     #board .brd_border.brd_video {
-        height: 380px;
+        height: 280px;
     }
 
     .logo_footer {
@@ -49,6 +53,18 @@ select {
     #info .bg3 {
         width: 90% !important;
         margin: 0 5%;
+    }
+
+    #sugang .input_info {
+        width: 100% !important;
+    }
+
+    .text-center--xs {
+        text-align: center;
+    }
+
+    #edulist table td:nth-child(2n) {
+        padding-left: 10px;
     }
 }
 
@@ -200,7 +216,7 @@ footer .footer {
 .tbl table th, .tbl table td {
     height: 25px;
     min-height: 25px;
-    padding: 15px;
+    padding: 15px 0;
 }
 
 .pagination {
@@ -402,6 +418,10 @@ footer .footer {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+#event  .event_item {
+    min-height: 300px;
+}
 /* end of event list */
 
 /* sugang list */
@@ -425,7 +445,6 @@ footer .footer {
     color: #fff;
     font-size: 12px;
     text-align: center;
-    margin-left: 10px;
     padding: 10px 20px;
     border-radius: 0 !important;
     cursor: pointer;
@@ -454,10 +473,6 @@ footer .footer {
     border: 2px solid #e5e5e5;
     min-height: 250px;
 
-}
-
-#edu_info .info_list {
-    padding: 40px;
 }
 
 #edu_info .info_head {
